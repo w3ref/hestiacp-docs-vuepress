@@ -25,4 +25,12 @@ export const sidebar: SidebarConfig = {
             ],
         },
     ],
+    '/reference/': [
+        {
+            text: 'Reference',
+            children: [
+                '/reference/cli.md',
+            ],
+        },
+    ],
 };
