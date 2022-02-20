@@ -11,6 +11,26 @@ export const sidebar: SidebarConfig = {
             ],
         },
     ],
+    '/admin/': [
+        {
+            text: 'Admin Documentation',
+            children: [
+                '/admin/web/',
+                '/admin/web/fastcgi.html',
+                '/admin/web/ssl_certificates.html',
+            ],
+        },
+    ],
+    '/user/': [
+        {
+            text: 'User Documentation',
+            children: [
+                '/user/options.html',
+                '/user/webdomains.html',
+                '/user/best_practices.html',
+            ],
+        },
+    ],
     '/release-notes/': [
         {
             text: 'Release notes',

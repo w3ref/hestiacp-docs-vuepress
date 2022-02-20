@@ -10,8 +10,18 @@ export const navbar: NavbarConfig = [
         children: [
             {
                 text: 'CLI',
-                link: '/reference/cli',
+                link: '/reference/cli/',
                 activeMatch: '/cli/',
+            },
+            {
+                text: 'Admin',
+                link: '/admin/',
+                activeMatch: '/admin/',
+            },
+            {
+                text: 'User',
+                link: '/user/',
+                activeMatch: '/user/',
             },
         ],
     },
