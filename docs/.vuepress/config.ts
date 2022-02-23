@@ -25,6 +25,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         docsBranch: 'master',
         docsDir: 'docs',
         lastUpdated: true,
+        contributors: false,
         navbar: navbar,
         sidebar: sidebar,
     },
